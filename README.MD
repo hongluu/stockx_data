@@ -1,14 +1,14 @@
 * Chú ý mọi thao tác đều thực hiện trên terminal
 
 # Env
-## Brew - Thư viện hỗ trợ của Mac
+### Brew - Thư viện hỗ trợ của Mac
 - http://osxdaily.com/2018/03/07/how-install-homebrew-mac-os/
-## MongoDb - Database
-### Install
+### MongoDb - Database
+#### Install
 - ```brew install mongodb```
-### Run
+#### Run
 - ```brew services start mongodb``` 
-## Nodejs 
+### Nodejs 
 - https://tecadmin.net/install-node-js-npm-macos/
 
 # Hướng dẫn chạy
@@ -16,14 +16,14 @@
 - cd stockx_data
 - npm install
 
-#SALE HISTORY
-## Run 
+### SALE HISTORY
+#### Run 
 - npm sale_history
 
-#ASK
-## Run 
+### ASK
+#### Run 
 - npm ask
 
-#BID
-## Run 
+### BID
+#### Run 
 - npm bid
