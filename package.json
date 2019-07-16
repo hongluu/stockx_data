@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "start": "node --prof -r esm import/import_product_basic.js",
+    "sale_history": "node --prof -r esm crawler/sale_history/product_sale_history_crawler.js",
+    "bid": "node --prof -r esm crawler/bid/product_bid_crawler.js",
+    "ask": "node --prof -r esm crawler/ask/product_ask_crawler.js",
+    "dev": "node --prof -r esm import/import_product_basic.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bloom-filters": "^0.7.0",
+    "cloudscraper": "^4.1.2",
+    "dateformat": "^3.0.3",
+    "esm": "^3.2.25",
+    "excel4node": "^1.7.2",
+    "log4js": "^4.4.0",
+    "moment": "^2.24.0",
+    "mongoose": "^5.6.3",
+    "request": "^2.88.0",
+    "xlsx": "^0.14.3"
+  }
+}
