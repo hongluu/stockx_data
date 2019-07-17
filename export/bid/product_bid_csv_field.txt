@@ -1,0 +1,13 @@
+product_id
+productName
+color
+season
+retailPrice
+releaseDate
+createdAt
+size
+amount
+frequency
+localAmount
+customerId
+skuUuid
